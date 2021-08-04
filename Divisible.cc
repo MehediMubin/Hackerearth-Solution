@@ -15,7 +15,7 @@ int main ()
     int n;
     cin >> n;
 
-    vector <string> v(n + 1);
+    vector <string> v(n);
     string s;
     for (auto &i : v) cin >> i;
     for (int i = 0; i < n / 2; i++) {
